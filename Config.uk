@@ -1,0 +1,9 @@
+menuconfig LIBFARMHASH
+	bool "farmhash - Google's family of hash functions"
+	select LIBCXX
+	select LIBNEWLIBC
+	select LIBPOSIX_SYSINFO
+	select LIBCXXABI
+	select LIBUNWIND
+	select LIBCOMPILER_RT
+	default n
