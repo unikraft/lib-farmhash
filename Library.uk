@@ -1,0 +1,6 @@
+name        := "farmhash"
+description := "A family of hash functions."
+gitrepo     := "https://github.com/google/farmhash.git"
+homepage    := "https://github.com/google/farmhash/"
+version     := 816a4ae sha256:6560547c63e4af82b0f202cb710ceabb3f21347a4b996db565a411da5b17aba0 https://github.com/google/farmhash/archive/816a4ae.tar.gz
+license     := "MIT"
